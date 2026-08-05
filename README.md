@@ -2,30 +2,28 @@
 
 ## Project Overview
 
-This project analyzes the Netflix Titles dataset using Python, SQL, and data visualization techniques to uncover business insights about Netflix's content library.
-
-The project focuses on understanding content distribution, genres, ratings, release trends, countries, and directors.
+Netflix Content Intelligence & Market Insights is a data analytics project that explores the Netflix Titles dataset using Python, SQL, and data visualization techniques. The project analyzes content distribution, genres, ratings, release trends, countries, and directors to uncover meaningful business insights that can support content strategy and decision-making.
 
 ---
 
 ## Objectives
 
-- Analyze Netflix content library
-- Compare Movies vs TV Shows
-- Identify top genres
-- Discover top producing countries
+- Analyze Netflix's content library
+- Compare Movies and TV Shows
+- Identify the most popular genres
+- Discover the leading content-producing countries
 - Analyze content ratings
-- Study release year trends
-- Find most active directors
-- Generate visual dashboards
+- Examine content release trends over time
+- Identify the most active directors
+- Generate visual insights using Python
 
 ---
 
 ## Dataset
 
-Netflix Titles Dataset
+**Dataset:** Netflix Movies and TV Shows Dataset
 
-Main Columns:
+### Main Columns
 
 - show_id
 - type
@@ -56,10 +54,9 @@ Main Columns:
 
 ## Project Structure
 
-```
-Netflix Content Intelligence & Market Insights/
+```text
+Netflix-Content-Intelligence-and-Market-Insights/
 
-│
 ├── data/
 │   └── netflix_titles.csv
 │
@@ -71,14 +68,13 @@ Netflix Content Intelligence & Market Insights/
 │
 ├── screenshots/
 │   ├── movies_vs_tvshows.png
-│   ├── top_genres.png
 │   ├── top_countries.png
+│   ├── top_genres.png
 │   ├── ratings_distribution.png
 │   ├── content_by_year.png
 │   └── top_directors.png
 │
 ├── Business_Insights.md
-│
 └── README.md
 ```
 
@@ -88,68 +84,67 @@ Netflix Content Intelligence & Market Insights/
 
 The Python script performs:
 
-- Dataset loading
+- Data loading
 - Data cleaning
 - Missing value handling
 - Exploratory Data Analysis (EDA)
-- Business metrics
+- Content trend analysis
 - Visualization generation
 
 ---
 
 ## SQL Analysis
 
-SQL queries include:
+The SQL script includes queries for:
 
-- Total titles
+- Total number of titles
 - Movies vs TV Shows
-- Top Countries
-- Top Genres
-- Ratings distribution
-- Top Directors
-- Recent Releases
-- Longest Movie
+- Top content-producing countries
+- Most popular genres
+- Rating distribution
+- Top directors
+- Recent releases
+- Longest movies
 
 ---
 
 ## Business Insights
 
-The project identifies:
+This project helps answer questions such as:
 
-- Dominant content type
-- Most popular genres
-- Highest content producing countries
-- Release trends
-- Rating distribution
-- Director activity
-- Growth of Netflix library
+- What percentage of Netflix's catalog consists of Movies versus TV Shows?
+- Which countries contribute the most content?
+- Which genres are most common?
+- How has Netflix's content library grown over time?
+- Which content ratings appear most frequently?
+- Which directors have the highest number of titles?
 
 ---
 
 ## Visualizations
 
-Generated charts include:
+The project generates the following visualizations:
 
 - Movies vs TV Shows
-- Top Genres
-- Top Countries
+- Top 10 Countries
+- Top 10 Genres
 - Rating Distribution
-- Release Trend
+- Content Released by Year
 - Top Directors
 
-All charts are stored in the **screenshots** folder.
+All generated charts are saved in the **screenshots** folder.
 
 ---
 
 ## How to Run
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install pandas matplotlib
 ```
 
-Run
+### Run the Analysis
 
 ```bash
 cd python
@@ -160,11 +155,24 @@ python3 netflix_analysis.py
 
 ## Future Improvements
 
+- Interactive Tableau Dashboard
 - Power BI Dashboard
-- Tableau Dashboard
-- Recommendation Engine
-- Machine Learning Prediction
-- Interactive Dashboard
+- Streamlit Web Dashboard
+- Recommendation System
+- Machine Learning-based Content Prediction
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Query Writing
+- Data Visualization
+- Business Analytics
+- Python Programming
+- Git Version Control
+- GitHub Portfolio Development
 
 ---
 
@@ -172,6 +180,13 @@ python3 netflix_analysis.py
 
 **Aswanth K**
 
-MBA Candidate
+MBA Candidate  
+CMS Business School, Jain University
 
 Business Analytics Portfolio Project
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes.
